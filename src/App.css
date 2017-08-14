@@ -48,6 +48,16 @@ p {
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width : 767px) {
+  .center-items-middle-screen {
+    height: 140vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 .us-image {
   height: auto;
   width: 300px;
