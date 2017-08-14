@@ -67,7 +67,23 @@ p {
 }
 
 .body-text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.fact-accent-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.bullet-color {
+  color: #c9d8c5;
+  margin-bottom: 5px;
+}
+
+.bullet-text {
+  color: black;
+  font-size: 1.6rem;
+  font-family: 'Merriweather', serif;
 }
 
 .dingus-container {
@@ -81,7 +97,7 @@ p {
 .dingus-number {
   font-size: 8.9rem;
   color: #c9d8c5;
-  
+
 }
 
 /*OVERRIDES*/
