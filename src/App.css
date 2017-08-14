@@ -45,7 +45,7 @@ p {
 }
 
 .center-items-middle-screen {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,11 +54,7 @@ p {
 
 @media only screen and (max-width : 767px) {
   .center-items-middle-screen {
-    height: 140vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
   }
 }
 
