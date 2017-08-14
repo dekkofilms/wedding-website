@@ -107,7 +107,17 @@ p {
 .dingus-number {
   font-size: 8.9rem;
   color: #c9d8c5;
+}
 
+.info-header {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: 3.6rem;
+}
+
+.info-text {
+  font-size: 2.2rem;
+  margin-bottom: 0;
 }
 
 /*OVERRIDES*/

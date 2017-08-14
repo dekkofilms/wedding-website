@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-class App extends Component {
+class Photos extends Component {
   render() {
     return (
       <div className="main-container">
@@ -17,4 +17,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Photos;

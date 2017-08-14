@@ -4,6 +4,7 @@ import './App.css';
 
 import Home from './components/Home/Home';
 import Photos from './components/Photos/Photos';
+import WeddingInfo from './components/WeddingInfo/WeddingInfo';
 import { Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -30,9 +31,9 @@ class App extends Component {
                 <LinkContainer className="nav-text" activeClassName="active-nav" to="/party">
                   <NavItem eventKey={4}>Wedding Party</NavItem>
                 </LinkContainer>
-                <LinkContainer className="nav-text" activeClassName="active-nav" to="/registry">
-                  <NavItem eventKey={5}>Registry</NavItem>
-                </LinkContainer>
+
+                <li role="presentation"><a href="https://www.blueprintregistry.com/registry/SamanthaandTaylor11.03.17" target="_blank">Registry</a></li>
+
                 <LinkContainer className="nav-text" activeClassName="active-nav" to="/rsvp">
                   <NavItem eventKey={6}>RSVP</NavItem>
                 </LinkContainer>
@@ -42,6 +43,7 @@ class App extends Component {
 
           <Route exact={true} path="/" component={Home}/>
           <Route path="/photos" component={Photos}/>
+          <Route path="/info" component={WeddingInfo}/>
         </Grid>
       </Router>
     );
