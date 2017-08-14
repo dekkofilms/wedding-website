@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import DingusCounter from './DingusCounter';
 
+// eslint-disable-next-line
 const {SparkScroll, SparkProxy} = require('../../App-Spark');
 
 class App extends Component {
