@@ -7,6 +7,10 @@ p {
   font-family: 'Merriweather', serif;
 }
 
+.main-container {
+  overflow-x: hidden;
+}
+
 .nav-text {
   font-weight: 400;
 }
