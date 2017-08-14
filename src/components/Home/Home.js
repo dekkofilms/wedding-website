@@ -31,7 +31,7 @@ class App extends Component {
             <div>
               <h4 className="body-accent" style={{color: '#c9d8c5'}}>Bride</h4>
               <h2 className="body-header">SAMANTHA SPILLMAN</h2>
-              <p className="body-text" style={{marginBottom: 20}}>Taylor is truly my best friend. He has the kindest heart and extends so much grace to me in my messiest moments.He is the person who makes me laugh the most, but also the person who tells me truth when I need to hear it. From the beginning I’ve admired his leadership, humility and desire to love others well. I couldn’t dream of a better adventure partner for the rest of my life.</p>
+              <p className="body-text" style={{marginBottom: 20}}>Taylor is truly my best friend. He has the kindest heart and extends so much grace to me in my messiest moments. He is the person who makes me laugh the most, but also the person who tells me truth when I need to hear it. From the beginning I’ve admired his leadership, humility and desire to love others well. I couldn’t dream of a better adventure partner for the rest of my life.</p>
               <h4 className="fact-accent-title" style={{color: '#a8b6bf'}}>FUN FACTS ABOUT TAYLOR</h4>
               <ul>
                 <li className="bullet-color">
