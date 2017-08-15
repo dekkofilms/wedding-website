@@ -12,7 +12,7 @@ class App extends Component {
         <Row className="splash-text-container">
           <Col xs={12}>
             <div style={{textAlign: 'center'}}>
-              <h1>Samantha & Taylor</h1>
+              <h1>Taylor & Samantha</h1>
             </div>
           </Col>
         </Row>
