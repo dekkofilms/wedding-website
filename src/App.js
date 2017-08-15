@@ -5,6 +5,9 @@ import './App.css';
 import Home from './components/Home/Home';
 import Photos from './components/Photos/Photos';
 import WeddingInfo from './components/WeddingInfo/WeddingInfo';
+import Party from './components/WeddingParty/Party';
+import Rsvp from './components/RSVP/Rsvp';
+
 import { Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -44,6 +47,8 @@ class App extends Component {
           <Route exact={true} path="/" component={Home}/>
           <Route path="/photos" component={Photos}/>
           <Route path="/info" component={WeddingInfo}/>
+          <Route path="/party" component={Party}/>
+          <Route path="/rsvp" component={Rsvp}/>
         </Grid>
       </Router>
     );
