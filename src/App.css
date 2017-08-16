@@ -150,6 +150,13 @@ p {
   background-size: 40% auto;
 }
 
+@media only screen and (max-width : 767px) {
+  .footer-container:before {
+    background-position: 50% 132%;
+    background-size: 60% auto;
+  }
+}
+
 #fixed-footer {
   display: none;
 }
