@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Row, Col } from 'react-bootstrap';
-import DingusCounter from './DingusCounter';
 
 // eslint-disable-next-line
 const {SparkScroll, SparkProxy} = require('../../App-Spark');
@@ -97,9 +96,13 @@ class App extends Component {
             </div>
           </Col>
         </Row>
-        <div>
-          <DingusCounter />
-        </div>
+        <Row className="footer-container">
+          <Col xs={12}>
+            <div style={{textAlign: 'center'}}>
+              <h2>We are excited to celebrate with you!</h2>
+            </div>
+          </Col>
+        </Row>
       </div>
     );
   }

@@ -35,7 +35,9 @@ class App extends Component {
                   <NavItem eventKey={4}>Wedding Party</NavItem>
                 </LinkContainer>
 
-                <li role="presentation"><a href="https://www.blueprintregistry.com/registry/SamanthaandTaylor11.03.17" target="_blank">Registry</a></li>
+                <li role="presentation">
+                  <a href="https://www.blueprintregistry.com/registry/SamanthaandTaylor11.03.17" target="_blank" rel="noopener noreferrer">Registry</a>
+                </li>
 
                 <LinkContainer className="nav-text" activeClassName="active-nav" to="/rsvp">
                   <NavItem eventKey={6}>RSVP</NavItem>
