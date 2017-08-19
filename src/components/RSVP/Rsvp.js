@@ -20,7 +20,7 @@ class Rsvp extends Component {
   render() {
     return (
       <div className="rsvp-wrapper">
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdgY2K-cxWk4KEO9Nd6TkhZjLqlA0qbKNbw2hCpkImLCCqyqQ/formResponse">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdgY2K-cxWk4KEO9Nd6TkhZjLqlA0qbKNbw2hCpkImLCCqyqQ/formResponse" target="_blank">
           <Row className="form-row">
             <Col md={8} mdOffset={2} xs={12}>
               <FormGroup controlId="formBasicText">
