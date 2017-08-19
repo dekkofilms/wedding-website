@@ -163,6 +163,7 @@ p {
 
 .rsvp-wrapper {
   height: calc(100vh - 50px);
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
