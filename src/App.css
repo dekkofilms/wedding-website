@@ -161,6 +161,89 @@ p {
   display: none;
 }
 
+.rsvp-wrapper {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-row {
+  margin-bottom: 30px;
+}
+
+.short-input-field {
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  /*border-bottom: 1px solid #c9d8c5;*/
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.short-input-field:focus {
+  box-shadow: none;
+  border-color: none;
+  /*border-bottom: 1px solid #c9d8c5;*/
+  outline: 0px;
+}
+
+.short-input-field::-webkit-input-placeholder {
+  color: #c9d8c5;
+  font-size: 28px;
+}
+.short-input-field::-moz-placeholder { /* Firefox 19+ */
+  color: #c9d8c5;
+  font-size: 28px;
+}
+.short-input-field:-ms-input-placeholder { /* IE 10+ */
+  color: #c9d8c5;
+  font-size: 28px;
+}
+.short-input-field:-moz-placeholder { /* Firefox 18- */
+  color: #c9d8c5;
+  font-size: 28px;
+}
+
+.form-label {
+  color: #c9d8c5;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.styled-select {
+  height: 50px;
+  color: #c9d8c5;
+  padding-left: 42px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+select.styled-select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   /*background-image: url(...);   /* add custom arrow */
+}
+
+.custom-button {
+  background-color: #a8b6bf;
+  color: white;
+  padding: 10px 40px;
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.custom-button:hover {
+  background-color: #828d93;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+}
+
 /*OVERRIDES*/
 .navbar {
   margin-bottom: 0;
